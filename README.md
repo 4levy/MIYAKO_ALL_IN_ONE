@@ -3,6 +3,7 @@
 # Required
 - Create ``sms_data`` folder
 - Create ``data`` folder
+- Python v3.9
 
 # Installation 
 ``` PLEASE INSTALL MODEL BY YOUR OWN```
