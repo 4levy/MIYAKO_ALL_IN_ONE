@@ -404,7 +404,6 @@ class Saverole(nextcord.ui.View):
         formatted_roles = ", ".join(role_data)
         embed.add_field(name="บทบาทที่บันทึก", value=f"`{formatted_roles}`", inline=False)
         embed.set_thumbnail(url=user.avatar.url if user.avatar else user.default_avatar.url)
-        embed.set_footer(text=f"Powered by {hosting_name}", icon_url=self.bot.user.avatar.url if self.bot.user.avatar else self.bot.user.default_avatar.url)
         
         await interaction.response.send_message(embed=embed, ephemeral=True)
 
